@@ -1,0 +1,77 @@
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+/* marca */
+
+.company-section {
+    width: 300rem;
+    padding: 40px;
+    text-align: center;
+}
+
+.company-info {
+    display: grid;
+    align-self: center;
+}
+
+.company-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}
+
+.company-details {
+    text-align: center;
+}
+
+.company-details h3 {
+    margin-bottom: 5px;
+}
+
+.company-details p {
+    margin-top: 0;
+}
+
+/* criador */
+
+.creator-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.creator-info {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+
+.creator-info img {
+    margin: 0 auto;
+}
+
+.creator-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}
+
+.creator-details {
+    text-align: center;
+}
+
+.creator-details h3 {
+    margin-bottom: 5px;
+}
+
+.creator-details p {
+    margin-top: 0;
+}
+
+.justify-details {
+    font-size: 18px;
+    text-align: justify;
+}

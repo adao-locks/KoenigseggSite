@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    margin-top: -15rem;
+}
+
+.container > div {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.container > div:nth-child(odd) {
+    grid-column: 2 2;
+    background-color: #dbdbdb;
+}
+
+.fotos>img {
+    width: 100%;
+    margin-top: -8rem;
+}
+
+.Absolut {
+    margin-top: 8rem;
+}
+
+.containerBtn {
+    display: grid;
+    justify-content: center;
+}
+
+.btnVoltar {
+    display: grid;
+    justify-content: center;
+    width: 6rem;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.btnVoltar>a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(2,0,36);
+    background-color: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(255,255,255,1) 68%);
+}
